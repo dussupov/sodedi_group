@@ -1,0 +1,394 @@
+@media	(max-width: 500px){
+	body{
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.header__logo{
+		padding-left: 24px;
+		padding-top: 33px;
+	}
+
+	.header__logo a img{
+		width: 100%;
+		height: 40px;
+	}
+
+    .header__nav{
+        padding-top: 36px;
+        padding-left: 34.35px;
+        padding-right: 24px;
+    }
+
+    .header__nav .social{
+        display: none;
+    }
+
+    .nav button{
+        width: 145px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 24px;
+    }
+    
+    .nav__btn{
+        color: #34C17D;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .company{
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+
+    .company__bg{
+        bottom: -89px;
+        left: 60%;
+        width: 100%;
+        height: 100%;
+    }
+    .company__bg img{
+        height: 361px;
+    }
+
+    .company__name p{
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .company__text{
+        width: 100%;
+        padding-top: 160px;
+        padding-left: 24px;
+    }
+
+    .company__title{
+        padding-top: 16px;
+        width: 272px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .home__img img{
+        z-index: 2;
+        width: 468px;
+        height: 483px;
+        left: -89px;
+        top: 390px;
+    }
+
+    .stat__title{
+        font-size: 48px;
+        line-height: 58px;
+        padding-left: 24px;
+    }
+
+    .stat__icon{
+        flex-direction: column;
+        padding-top: 34px;
+        padding-right: 0;
+        padding-left: 24px;
+    }
+
+    .stat__item{
+        margin-bottom: 48px;
+    }
+
+    .stat__item-title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .stat__item-subtitle{
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .review{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .review__left{
+        width: 100%;
+        height: 360px;
+    }
+
+    .review__left-title {
+        padding: 57px 24px 83px 24px ;
+    }
+
+    .review__left-title p{
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .review__right{
+        width: 100%;
+        height: 450px;
+    }
+
+    .review__right-title{
+        padding: 38px 24px 24px 24px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .review__right-subtitle{
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 0;
+        padding-left: 24px;
+    }
+
+    .flickity-page-dots{
+        bottom: -120px;
+        padding-left: 24px;
+    }
+
+    .whywe .container{
+        flex-direction: column;
+    }
+
+    .whywe__img img{
+        position: absolute;
+        top: -40px;
+        width: 320px;
+        height: 299px;
+    }
+
+    .whywe__img{
+        width: 100%;
+    }
+
+    .whywe__content{
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .whywe__title{
+        padding: 0 24px;
+        font-size: 30px;
+        line-height: 36px;
+        width: 310px;
+    }
+
+    .whywe__container{
+        padding-top: 58px;
+    }
+
+    .whywe__item{
+        padding-left: 24px;
+        padding-right: 9px;
+        padding-bottom: 54px;
+        width: 50%;
+    }
+
+    .whywe__item-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .slogan{
+        position: relative;
+        height: 630px;
+        overflow: hidden;
+    }
+
+
+    .slogan .container{
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .slogan__title{
+        width: 272px;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .slogan__img img{
+        position: absolute;
+        left: -75px;
+        bottom: -120px;
+        width: 467px;
+        height: 401px;
+    }
+
+    .service .container{
+        flex-direction: column;
+    }
+
+    .service__item{
+        width: 100%;
+        padding-left: 24px;
+        border-bottom: solid 5px #fff;
+    }
+
+    .service__title{
+        width: 272px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .service__subtitle{
+        width: 272px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .getbtn{
+        height: 420px;
+    }
+    
+    .getbtn__title{
+        width: 272px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .form__content{
+        height: auto;
+    }
+
+    .form__content .container{
+        flex-direction: column;
+    }
+
+    .form__item{
+        width: 100%;
+    }
+
+    .form__text{
+        padding-top: 78px;
+        padding-left: 24px;
+        font-size: 30px;
+        line-height: 36px;
+        width: 272px;
+    }
+
+    .form__img{
+     display: none;
+    }
+
+    form{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 80px;
+    }
+
+    form h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    form h4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .inputBox input{
+        width: 272px;
+    }
+
+    .inputBtn{
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .inputBox p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .pp__text{
+        margin: 32px 0px;
+        font-size: 14px;
+        line-height: 20px;  
+    }
+
+    footer{
+        height: 300px;
+    }
+
+    footer .container{
+        flex-direction: column;
+    }
+    
+    .footer__logo-title{
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    .footer__logo{
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .footer__item .social{
+
+    }
+
+
+
+
+}
+
+@media	(max-width: 1440px){
+    .home__img img{
+        width: 640px;
+        height: 667px;
+        left: 60%;
+    }
+
+    .company{
+        width: 800px;
+        height: 725px;
+    }
+
+    .company__text{
+        padding-top: 280px;
+        padding-left: 75px;
+    }
+
+    .company__name p{
+        font-size: 76px;
+    }
+
+    .slogan__title{
+        padding-left: 40px;
+        font-size: 80px;
+    }
+
+    .service__subtitle{
+        font-size: 20px;
+    }
+
+    .form__text{
+        font-size: 38px;
+    }
+    
+    .review__left-title p{
+        font-size: 42px;
+    }
+
+    .flickity-page-dots{
+        bottom: -120px;
+        padding-left: 90px;
+    }
+
+    .review__left-title{
+        padding: 91px 70px 287px;
+    }
+
+    .review__right-title{
+        padding: 91px  238px 0px 90px;
+    }
+
+    .review__right-subtitle{
+        padding-left: 90px;
+        font-size: 22px;
+    }
+}
